@@ -1,3 +1,55 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+@import 'https://fonts.googleapis.com/css2?family=Inter&family=Ribeye+Marrow&display=swap';
+
+.ribeye-marrow-regular {
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .Landing{
- 
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    padding: 17em 0em;
+
+    h1, h3{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-family: "Inter", sans-serif;
+    }
+    h1{
+        font-size: 150px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Ribeye Marrow", serif;
+        color: #EECB75;
+        text-shadow: #AAAA00 1px 0 10px;
+    }
+    h3{
+        font-size: 40px;
+        font-weight: 600;
+        color: #DDDDDF;
+    }
+
+    .intro{
+        padding: 10px 0;
+    }
+}
+
+.blackBar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .downArrow{
+        color: #777;
+        font-size: 50px;
+    }
+}
+
+.max-width{
+    max-width: 70%;
+    margin: 0 auto;
 }

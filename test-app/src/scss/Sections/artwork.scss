@@ -1,0 +1,21 @@
+.ArtWork{
+    .portfolioSection{
+        .rowOne, .rowTwo{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .col1, .col2, .col3{
+                width: 20%;
+                flex: 1;
+
+                img{
+                    object-fit: contain;
+                    display: block;
+                    max-width: 100%;
+                    
+                }
+            }
+        }
+    }
+}
