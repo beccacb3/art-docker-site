@@ -1,10 +1,10 @@
 import './scss/main.scss';
-import Nav from './Components/Nav.js';
-import Experience from './Components/Experience.js';
-import Landing from './Components/Landing.js';
-import Projects from './Components/Projects.js';
-import Contact from './Components/Contact.js';
-import ArtWork from './Components/ArtWork.js';
+import Nav from './Sections/Nav.js';
+import Experience from './Sections/Experience.js';
+import Landing from './Sections/Landing.js';
+import Projects from './Sections/Projects.js';
+import Contact from './Sections/Contact.js';
+import ArtWork from './Sections/ArtWork.js';
 import React  from 'react';
 
 

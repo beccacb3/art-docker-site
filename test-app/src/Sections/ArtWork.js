@@ -1,16 +1,24 @@
 import React from 'react';
 import '../scss/main.scss';
-import birds from'./../Data/images/birds.jpg';
-import incomplete_girl from'./../Data/images/incomplete_girl.jpg';
-import pallet_knife from'./../Data/images/pallet_knife.jpg';
-import skull from'./../Data/images/skull.jpg';
-import snake from'./../Data/images/snake.jpg';
-import charcoal_still from'./../Data/images/charcoal_still.jpg';
+import Images from './Components/Images';
+
+//import birds from'./../Data/images/birds.jpg';
+//import incomplete_girl from'./../Data/images/incomplete_girl.jpg';
+//import pallet_knife from'./../Data/images/pallet_knife.jpg';
+//import skull from'./../Data/images/skull.jpg';
+//import snake from'./../Data/images/snake.jpg';
+//import charcoal_still from'./../Data/images/charcoal_still.jpg';
 
 const ArtWork=(props)=>
 {
+
+    
+
   return(
     <div id="ArtWork" className="ArtWork">
+        <Images />
+    </div>
+    /*<div id="ArtWork" className="ArtWork">
         <div className="max-width">
             <div className="portfolioSection">
                 <h2>Recent Artwork</h2>
@@ -44,7 +52,8 @@ const ArtWork=(props)=>
                 </div>
             </div>
         </div>
-    </div>);
+  </div>*/
+  );
 }
  
 export default ArtWork;
