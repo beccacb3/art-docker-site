@@ -1,12 +1,13 @@
+@import './../Universal/variables'; // Import the variables file
+
 .ArtWork{
-    max-width: 80%;
+    max-width: $max-width;
     margin: 0 auto;
     position: static;
 
     h2{
-        margin: 20px;
-        margin-top:60px;
-        font-family: 'Roboto Condensed', sans-serif;
+        margin: 1em 0;
+        font-family: $art-header;
         font-style: italic;
         font-size: 100px;
         font-weight: 400;
@@ -21,7 +22,7 @@
       .image-container {
         position: relative;
         overflow: hidden;
-        margin: 15px;
+        margin: 5%;
         box-shadow: 0 4px 20px 10px rgba(0, 0, 0, 0.25);
       }
       
@@ -30,6 +31,37 @@
         height: 100%;
         object-fit: cover;
         display: block;
-        padding: 25px;
+        padding: 8%;
       }
+}
+
+
+@include breakpoint(small) {
+  .ArtWork{
+    //background-color: green;
+    max-width: 90%;
+
+    .image-gallery {
+      display: block;
+      width:100%;
+      position: relative;
+    }
+    
+    .image-container {
+      width: 100%;
+      margin: 2em 0;
+    }
+  }
+}
+
+@include breakpoint(medium) {
+  .ArtWork{
+    max-width: 90%;
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(48%, 1fr)); /* Adjust column width as needed */
+      grid-gap: 0px; /* Adjust gap between items as needed */
+    }
+  }
 }

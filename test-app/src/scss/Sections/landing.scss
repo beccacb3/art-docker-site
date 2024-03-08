@@ -1,8 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
-@import 'https://fonts.googleapis.com/css2?family=Inter&family=Ribeye+Marrow&display=swap';
+@import './../Universal/variables'; // Import the variables file
 
 .ribeye-marrow-regular {
-    font-family: "Ribeye Marrow", serif;
+    font-family: $landing-font;
     font-weight: 400;
     font-style: normal;
   }
@@ -17,6 +16,7 @@
         color: white;
         font-family: 'Roboto', sans-serif;
         font-family: "Inter", sans-serif;
+        width: 100%;
     }
     h1{
         font-size: 150px;
@@ -56,6 +56,7 @@
 }
 
 .max-width{
-    max-width: 70%;
+    max-width: $max-width;
+    min-width: $max-width;
     margin: 0 auto;
 }

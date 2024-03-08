@@ -1,0 +1,32 @@
+// _variables.scss
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+@import 'https://fonts.googleapis.com/css2?family=Inter&family=Ribeye+Marrow&display=swap';
+
+//Typography
+$art-header: 'Roboto Condensed', sans-serif;
+$landing-font: "Ribeye Marrow", serif;
+
+//Width
+$max-width: 80%;
+
+//mixins
+@mixin breakpoint($size) {
+    @if $size == small {
+      @media only screen and (max-width: 600px) {
+        @content;
+      }
+    }
+  
+    @if $size == medium {
+      @media only screen and (min-width: 601px) and (max-width: 900px) {
+        @content;
+      }
+    }
+  
+    @if $size == large {
+      @media only screen and (min-width: 901px) {
+        @content;
+      }
+    }
+  }
