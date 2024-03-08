@@ -10,7 +10,7 @@ const Images = () => {
   }, []); // Empty dependency array for one-time setup
 
   return (
-    <div className="imageGallery">
+    <div className="image-gallery">
         {imageNames.map((imageName, index) => (
             <div className="image-container">
                 { <img

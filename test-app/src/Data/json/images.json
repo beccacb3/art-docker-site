@@ -2,19 +2,14 @@
     "images":
     [
         {
-            "Name" : "birds",
-            "altContent" : "Birds on branch",
-            "filePath" : "birds.jpg"
-        },
-        {
-            "Name" : "charcoal_still",
-            "altContent" : "Charcoal_still",
-            "filePath" : "charcoal_still.jpg"
-        },
-        {
             "Name" : "incomplete_girl",
             "altContent" : "Incomplete girl drawing",
             "filePath" : "incomplete_girl.jpg"
+        },
+        {
+            "Name" : "birds",
+            "altContent" : "Birds on branch",
+            "filePath" : "birds.jpg"
         },
         {
             "Name" : "pallet_knife",
@@ -22,14 +17,19 @@
             "filePath" : "pallet_knife.jpg"
         },
         {
-            "Name" : "skull",
-            "altContent" : "Skull drawn from charcoal",
-            "filePath" : "skull.jpg"
+            "Name" : "charcoal_still",
+            "altContent" : "Charcoal_still",
+            "filePath" : "charcoal_still.jpg"
         },
         {
             "Name" : "snake",
             "altContent" : "Snake Drawing",
             "filePath" : "snake.jpg"
+        },
+        {
+            "Name" : "skull",
+            "altContent" : "Skull drawn from charcoal",
+            "filePath" : "skull.jpg"
         }
     ]
 }
