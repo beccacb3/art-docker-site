@@ -5,9 +5,12 @@
 
 //Typography
 $art-header: 'Roboto Condensed', sans-serif;
-$landing-font: "Ribeye Marrow", serif;
+$art-header-size: clamp(3.125rem, 2.0246478873239435rem + 3.5211267605633805vw, 6.25rem);
 
-//Width
+$landing-font: "Ribeye Marrow", serif;
+$landing-font-size: clamp(5.625rem, 4.304577464788732rem + 4.225352112676056vw, 9.375rem);
+
+$landing-subheader-size: clamp(1.875rem, 1.2147887323943662rem + 2.112676056338028vw, 3.75rem);
 $max-width: 80%;
 
 //mixins

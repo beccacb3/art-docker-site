@@ -10,19 +10,20 @@
         font-family: $art-header;
         font-style: italic;
         font-size: 100px;
-        font-weight: 400;
-    }
+        font-weight: 500;
+        font-size: $art-header-size;
+          }
 
     .image-gallery {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Adjust column width as needed */
-        grid-gap: 0px; /* Adjust gap between items as needed */
+        grid-gap: 3%; /* Adjust gap between items as needed */
       }
       
       .image-container {
         position: relative;
         overflow: hidden;
-        margin: 5%;
+        margin: 0;
         box-shadow: 0 4px 20px 10px rgba(0, 0, 0, 0.25);
       }
       
@@ -38,6 +39,12 @@
 
 @include breakpoint(small) {
   .ArtWork{
+
+    h2{
+      text-align: center;
+      font-weight: 500;
+      font-style: normal;
+    }
     //background-color: green;
     max-width: 90%;
 
@@ -61,7 +68,6 @@
     .image-gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(48%, 1fr)); /* Adjust column width as needed */
-      grid-gap: 0px; /* Adjust gap between items as needed */
     }
   }
 }

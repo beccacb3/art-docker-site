@@ -16,7 +16,7 @@ const ArtWork=(props)=>
 
   return(
     <div id="ArtWork" className="ArtWork">
-        <h2>Recent Artwork</h2>
+        <h2>RECENT ARTWORK</h2>
         <Images />
     </div>
     /*<div id="ArtWork" className="ArtWork">

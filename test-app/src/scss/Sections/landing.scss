@@ -19,16 +19,16 @@
         width: 100%;
     }
     h1{
-        font-size: 150px;
-        font-weight: 400;
+        font-size: $landing-font-size;
+        font-weight: 500;
         font-style: normal;
         font-family: "Ribeye Marrow", serif;
         color: #EECB75;
         text-shadow: #AAAA00 1px 0 10px;
     }
     h3{
-        font-size: 40px;
-        font-weight: 600;
+        font-size: $landing-subheader-size;
+        font-weight: 400;
         color: #DDDDDF;
     }
 
@@ -59,4 +59,23 @@
     max-width: $max-width;
     min-width: $max-width;
     margin: 0 auto;
+}
+
+
+@include breakpoint(small) {
+    .max-width{
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    .Landing{
+        padding: 6em 0em;
+    }
+}
+
+@include breakpoint(medium) {
+    .max-width{
+        max-width: 90%;
+        min-width: 90%;
+    }
 }
